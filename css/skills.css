@@ -1,0 +1,15 @@
+.actually-faq {
+  margin: 120px 20px
+}
+
+.actually-faq > h4 {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px){
+
+}
