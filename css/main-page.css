@@ -19,6 +19,7 @@
 
 .about-me > h2 {
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .about-me > p {
@@ -42,7 +43,11 @@
   text-decoration: underline;
 }
 
-.special-about-me > h3 {
+.specials {
+  margin: 100px auto;
+}
+
+.specials > div > h3 {
   display: none;
   width: 100%;
   text-align: center;
@@ -92,8 +97,13 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
+  .warning > h2 {
+    font-size: 8pt;
+  }
+}
 
+@media screen and (max-width: 768px){
   .special-container {
     margin: 60px auto;
   }
