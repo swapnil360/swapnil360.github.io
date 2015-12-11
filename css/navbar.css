@@ -43,6 +43,7 @@ body {
 
 .navbar-inverse .navbar-nav > li > a {
   opacity: 0.6;
+  transition: background-color 0.5s, opacity 0.5s;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
@@ -50,12 +51,14 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   color: #FFF;
   opacity: 1.0;
+  transition: background-color 0.5s, opacity 0.5s;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s, opacity 0.5s;
 }
 
 .navbar-inverse .navbar-header > a:hover {

@@ -45,7 +45,22 @@ footer > h4 {
 
 /*.social-media-icons > li > a:focus,*/
 .social-media-icons > li > a:hover {
-  background-color: #0099cc;
   color: #FFF;
   transition: background-color 0.2s, color 0.2s;
+}
+
+#sn-icon-facebook:hover {
+  background-color: #3B5998;
+}
+
+#sn-icon-twitter:hover {
+  background-color: #55ACEE;
+}
+
+#sn-icon-dribbble:hover {
+  background-color: #C73B6F;
+}
+
+#sn-icon-behance:hover {
+  background-color: #1769FF;
 }
