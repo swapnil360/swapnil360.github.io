@@ -421,7 +421,7 @@ nav > ul > li:last-child {
   width: 100%;
   height: 16em;
   z-index: 99;
-  animation: brain 0.3s ease-out;
+  /*animation: brain 0.3s ease-out;*/
 
   filter:
   drop-shadow(0px 32px 32px rgba(68, 76, 92, 0.2))
@@ -448,7 +448,7 @@ nav > ul > li:last-child {
   height: 16em;
   display: flex;
   z-index: -99;
-  animation: header-reveal 0.6s ease-out;
+  /*animation: header-reveal 0.6s ease-out;*/
 }
 
 .header {
@@ -543,12 +543,12 @@ nav > ul > li:last-child {
 
 .ab-sec:first-child > .skills-section-head, .technical-skill {
   position: relative;
-  animation: slide-from-right 0.6s ease-out;
+  /*animation: slide-from-right 0.6s ease-out;*/
 }
 
 .ab-sec:last-child > .skills-section-head, .creative-skill {
   position: relative;
-  animation: slide-from-left 0.6s ease-out;
+  /*animation: slide-from-left 0.6s ease-out;*/
 }
 
 .skills-section-head {
@@ -641,7 +641,7 @@ nav > ul > li:last-child {
 
   position: relative;
   bottom: 96px;
-    animation: hybrid-skill-anim 0.4s ease-out;
+    /*animation: hybrid-skill-anim 0.4s ease-out;*/
   background: linear-gradient(90deg, rgba(127, 127, 127, 1), rgba(21, 210, 199, 1));
 }
 
